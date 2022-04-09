@@ -1,1 +1,136 @@
-# CourseraProject2
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Responsive Layout</title>
+<style>
+
+/********** Base styles **********/
+* {
+  box-sizing:border-box;
+}
+h1 {
+  margin-bottom: 15px;
+}
+
+p {
+  border: 1px solid black;
+  background-color: #A52A2A;
+  width: 30%;
+  height: 100px;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-family: Helvetica;
+  color: white;
+
+}
+#p1{ width: 50%;background-color: #A52A2A;
+        box-sizing: content-box;
+  position: relative;
+  margin-top: 0%;
+  margin-left: 0%;
+  float: none;
+  width: 70px;
+  height: 20px;
+  left: 186px; }
+  #p2{ width: 50%;background-color: #A52A2A;
+        box-sizing: content-box;
+  position: relative;
+  margin-top: 0%;
+  margin-left: 0%;
+  float: none;
+  width: 70px;
+  height: 20px;
+  left: 186px; }
+  #p3{ width: 50%;background-color: #A52A2A;
+        box-sizing: content-box;
+  position: relative;
+  margin-top: 0%;
+  margin-left: 0%;
+  float: none;
+  width: 70px;
+  height: 20px;
+  left: 186px; }
+
+
+
+/* Simple Responsive Framework. */
+.row {
+  width: 80%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3 {
+    float: left;
+    border: 1px solid green;
+    margin-left: 0px;
+    margin-right: 20px;
+    position: relative;
+  }
+  .col-lg-1 {
+    width: 8.33%; 
+
+  }
+  .col-lg-2 {
+    width: 16%;
+  }
+  .col-lg-3 {
+      width: 25%;
+}
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3 {
+    float: left;
+    border: 1px solid green;
+    position: relative;
+  }
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  
+}
+/********** Medium devices only **********/
+@media  (max-width: 767px) {
+  .col-md-1, .col-md-2, .col-md-3 {
+    float: left;
+    border: 1px solid green;
+    position: relative;
+  }
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  
+}
+
+</style>
+</head>
+<body>
+<h1>Responsive Layout</h1>
+
+<div class="row ">
+ <div id="container"><div class="col-lg-3 col-md-6 "><p id="p1">chicken</p>zsnhdshjbdhjdhbfhfbhdbnsbndbsmmj
+kkkkkkkkkkkkkkkkkkkkkkkkiiiiiiiiiii </div></div>
+ <div id="container"><div class="col-lg-3 col-md-6"><p id="p2">sheep</p>izsdnhshjbdhjdhbfhfbhdbnsbndbsmmj
+  kkkkkkkkkkkkkkkkkkkkkkkkiiiiiiiiii</div></div>
+  <div id="container"><div class="col-lg-3 col-md-6"><p id="p3">Goat</p>zsnhshjbdhjdhbfhfbhdbnsbndbsmmj
+    kkkkkkkkkkkkkkkkkkkkkkkkiiiiiiiiii></div></div>
+  
+</div>
+
+</body>
+</html>
