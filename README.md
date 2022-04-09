@@ -4,8 +4,6 @@
 <meta charset="utf-8">
 <title>Responsive Layout</title>
 <style>
-
-/********** Base styles **********/
 * {
   box-sizing:border-box;
 }
@@ -32,7 +30,7 @@ p {
   float: none;
   width: 70px;
   height: 20px;
-  left: 106px; }
+  left: 116px; }
   #p2{ width: 50%;background-color: #A52A2A;
         box-sizing: content-box;
   position: relative;
@@ -41,7 +39,7 @@ p {
   float: none;
   width: 70px;
   height: 20px;
-  left: 106px; }
+  left: 116px; }
   #p3{ width: 50%;background-color: #A52A2A;
         box-sizing: content-box;
   position: relative;
@@ -50,11 +48,8 @@ p {
   float: none;
   width: 70px;
   height: 20px;
-  left: 106px; }
+  left: 116px; }
 
-
-
-/* Simple Responsive Framework. */
 .row {
   width: 80%;
 }
@@ -78,43 +73,6 @@ p {
   .col-lg-3 {
       width: 25%;
 }
-}
-
-/********** Medium devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
-  .col-md-1, .col-md-2, .col-md-3 {
-    float: left;
-    border: 1px solid green;
-    position: relative;
-  }
-  .col-md-1 {
-    width: 8.33%;
-  }
-  .col-md-2 {
-    width: 16%;
-  }
-  .col-md-3 {
-    width: 25%;
-  }
-  
-}
-/********** Medium devices only **********/
-@media  (max-width: 767px) {
-  .col-md-1, .col-md-2, .col-md-3 {
-    float: left;
-    border: 1px solid green;
-    position: relative;
-  }
-  .col-md-1 {
-    width: 8.33%;
-  }
-  .col-md-2 {
-    width: 16%;
-  }
-  .col-md-3 {
-    width: 25%;
-  }
-  
 }
 
 </style>
