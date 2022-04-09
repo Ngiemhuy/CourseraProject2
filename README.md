@@ -32,7 +32,7 @@ p {
   float: none;
   width: 70px;
   height: 20px;
-  left: 186px; }
+  left: 106px; }
   #p2{ width: 50%;background-color: #A52A2A;
         box-sizing: content-box;
   position: relative;
@@ -41,7 +41,7 @@ p {
   float: none;
   width: 70px;
   height: 20px;
-  left: 186px; }
+  left: 106px; }
   #p3{ width: 50%;background-color: #A52A2A;
         box-sizing: content-box;
   position: relative;
@@ -50,7 +50,7 @@ p {
   float: none;
   width: 70px;
   height: 20px;
-  left: 186px; }
+  left: 106px; }
 
 
 
